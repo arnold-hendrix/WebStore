@@ -70,7 +70,9 @@ namespace WebStoreClient
 
         private void refreshBtn_Click(object sender, EventArgs e)
         {
-            orderListPanel.Refresh();
+            orderListPanel.Refresh();  
+            // i will add a different kind of functionality here. The instructions were not that clear. It didn't seem that different to
+            // what the purchase button already does.
         }
     }
 }
